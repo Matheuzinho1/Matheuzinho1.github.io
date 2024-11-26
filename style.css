@@ -1,0 +1,90 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+/*CONTAINER-TITLE*/
+#container-title {
+    box-sizing: border-box;
+    padding: 10px;
+    background: #1C1C1C;
+    line-height: 63px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+#container-title h1 {
+    float: left;
+    font-size: 1.5em;
+    color: #fff;
+    margin-left: 10px;
+}
+
+#container-title li {
+    list-style-type: none;
+    float: right;
+}
+
+#container-title a {
+    background: #6f6f6f;
+    padding: 12.5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+body#index #container-title #select a {
+    background: #294960;
+}
+
+/*CONTAINER-CONTENT*/
+#container-content {
+    width: 100%;
+    height: 100%;
+}
+
+#align-itens {
+    text-align: center;
+    width: 700px;
+    position: relative;
+    top: 20%;
+    left: 30px;
+}
+
+#container-content h1 {
+    color: rgb(0, 166, 255);
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#container-content p {
+    padding: 10px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 0.9em;
+}
+
+#rodape {
+    box-sizing: border-box;
+    padding: 10px;
+    background: #1C1C1C;
+    line-height: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 0.9em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
